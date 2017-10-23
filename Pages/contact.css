@@ -1,0 +1,48 @@
+header {
+  height: 120px;
+  background-color: #bdcbd9;
+}
+
+main {
+  min-height: 400px;
+  background-color: #fff;
+}
+
+footer {
+  height: 150px;
+  background-color: #bdcbd9;
+}
+
+.wrapper {
+  width: 980px;
+  margin: auto;
+}
+
+.HolyGrail {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+
+.HolyGrail-content {
+  flex: 1;
+}
+
+.HolyGrail-nav, .HolyGrail-ads {
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+  line-height: 200%;
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+.footer {
+  height: auto;
+}
